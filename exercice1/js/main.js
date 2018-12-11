@@ -13,3 +13,19 @@
 
 ○ améliorer l'UI/UX pour que cela ressemble à une vraie calculatrice */
 
+refresh();
+
+function insertNumber(elemID, text) {
+    var elem = document.getElementById(elemID);
+    elem.value += text;
+}
+
+function calculateThis() {
+    var input = document.getElementById('js-valeur').value;
+    var results = eval(input);
+    document.getElementById('js-valeur').value = results;
+}
+
+function refresh() {
+    document.getElementById('js-valeur').value = "";
+}
