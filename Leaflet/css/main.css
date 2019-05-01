@@ -1,0 +1,15 @@
+#mapid { 
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+}
+
+#weather {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+body {
+    display: flex;
+}
